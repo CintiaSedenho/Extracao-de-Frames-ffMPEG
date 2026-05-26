@@ -1,0 +1,1 @@
+ffmpeg -i "ScreenRecording_05-18-2026 12-51-35_1.mp4" -vf "select='gt(scene,0.02)',showinfo" -fps_mode vfr "frames\frame_%06d.png"
